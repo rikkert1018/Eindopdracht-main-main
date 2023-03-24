@@ -61,7 +61,7 @@ function feed() {
 		happiness += 5;
 		energy += 5;
 		const pet = document.getElementById("pet");
-		pet.src = "./img/SVG/big_chungus_eat.svg";
+		pet.src = "./img/SVG/Big_chungus_eat.svg";
 		setTimeout(function () {
 			pet.src = "./img/Big_chungus.webp";
 			updatePet();
