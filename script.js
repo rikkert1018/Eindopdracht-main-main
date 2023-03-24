@@ -92,7 +92,7 @@ function play() {
 var sleepButton = document.getElementById("sleepbutton")
 sleepButton.addEventListener("click", sleep)
 
-// Hier wordt een functie "sleep" gedefinieerd die de Tamagotchi laat slapen als deze niet al slaapt en de energie lager is dan 90.
+// Hier wordt een functie "sleep" gedefinieerd die de Tamagotchi laat slapen als deze niet al slaapt en de energie lager is dan 90
 function sleep() {
 	if (!isAsleep && energy < 90) {
 		// Stel de slaapstatus in op "waar" en verander de afbeelding van het huisdier om te laten zien dat het slaapt.
