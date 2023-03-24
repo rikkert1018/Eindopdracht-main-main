@@ -187,7 +187,7 @@ changeBgBtn.addEventListener("click", function () {
 
 
 
-
+//hulp van Sem en Sander
 //bron W3Schools. (2021). JavaScript HTML DOM. Geraadpleegd op 24 maart 2023, van https://www.w3schools.com/js/js_htmldom.asp
 //bron W3Schools. (n.d.). JavaScript Data Types. Geraadpleegd op 24 maart 2023, van https://www.w3schools.com/js/js_datatypes.asp
 
