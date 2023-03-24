@@ -54,11 +54,23 @@ body {
   font-weight: normal;
   }
   
-  /* Dit bepaalt de positie van de radio button */
+ .radio-button {
+  padding: 0px 0px 0px 0px;
+ } /* Dit bepaalt de positie van de radio button */
+ 
+ 
   #radioButton {
   top: 56vh;
   left: 40vw;
   position: relative;
+  background-image: url(./img/boombox.png);
+  background-size: contain;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 100px 100px 0px 0px;
+  margin: -86px 0px 0px 0px;
+
   }
   
   /* Dit bepaalt de opmaak van de knoppen sectie */
@@ -102,7 +114,7 @@ body {
   transition-duration: 0.6s;
   }
   
-  .radio
+  
   
   /* Dit bepaalt de opmaak van de input voor de naam van het huisdier */
   .name-input {
