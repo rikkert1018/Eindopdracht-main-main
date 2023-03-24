@@ -1,0 +1,187 @@
+/* Hiermee wordt de achtergrondafbeelding geschaald en herhaald*/
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  }
+  
+  /* Dit bepaalt de grootte van het h2 element en stelt de inhoud ervan in het midden uitgelijnd */
+  h2 {
+  font-size: 3em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: helvetica;
+  }
+  
+  /* Dit bepaalt de opmaak van de container elementen */
+  .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#000000, #8d8d8d);
+  border-radius: 4em;
+  width: 50%;
+  margin: 0em 0 2em 0;
+  padding: 0em 0em 0em 0em;
+  }
+  
+  /* Dit is de container voor de radio button */
+  .containercontainer {
+  display: flex;
+  justify-content: center;
+  }
+  
+  /* Dit bepaalt de opmaak van de statistieken sectie */
+  .stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  padding: 0px 0px 24px 0px;
+  }
+  
+  .stats p {
+  margin: 5px;
+  font-size: 34px;
+  font-weight: bold;
+  }
+  
+  .stats span {
+  font-weight: normal;
+  }
+  
+  /* Dit bepaalt de positie van de radio button */
+  #radioButton {
+  top: 56vh;
+  left: 40vw;
+  position: relative;
+  }
+  
+  /* Dit bepaalt de opmaak van de knoppen sectie */
+  .buttons {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: fixed;
+  bottom: 7vh;
+  left: 0;
+  right: 0;
+  }
+  
+  /* Dit bepaalt de opmaak van de knoppen */
+  button {
+  margin: 0px 85px;
+  padding: 30px 50px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  background-color:rgb(244, 157, 71);
+  color: white;
+  }
+  
+  /* Dit bepaalt de opmaak van de achtergrond van de knoppen sectie */
+  .buttons-background {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  position: fixed;
+  left: 0;
+  right: 80vw;
+  bottom: 21vh;
+  }
+  
+  /* Dit bepaalt de opmaak van de knoppen wanneer de muis eroverheen gaat */
+  button:hover {
+  background-color: orangered;
+  cursor: pointer;
+  transition-duration: 0.6s;
+  }
+  
+  .radio
+  
+  /* Dit bepaalt de opmaak van de input voor de naam van het huisdier */
+  .name-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0px 0px 30px 0px;
+  }
+  
+ /* Dit bepaalt de opmaak van het label voor de naam invoer */
+.name-input label {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: helvetica;
+  color: whitesmoke;
+  }
+
+/* Dit bepaalt de opmaak van de invoerveld voor de naam */
+.name-input input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 10px;
+  }
+
+/* Dit bepaalt de opmaak van de knop voor de naam invoer */
+.name-input button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color:rgb(244, 157, 71);
+  color: white;
+  }
+
+/* Dit verbergt een element */
+.hide {
+  display: none ;
+  }
+
+/* Dit bepaalt de opmaak van het huisdier afbeelding */
+#pet {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 32vh;
+  left: 35vw;
+  }
+  
+  /* Dit bepaalt de opmaak van de naam van het huisdier */
+  #petName {
+  display: flex;
+  align-items: center;
+  z-index: 2;
+  color: whitesmoke;
+  }
+
+
+.background1 {
+/* bron afbeelding: https://www.google.com/search?q=looney%20tunes%20landscape&tbm=isch&tbs=isz:l&rlz=1C1CHBD_nlNL972NL972&hl=en&sa=X&ved=0CAIQpwVqFwoTCLCvg_vg9P0CFQAAAAAdAAAAABAI&biw=2543&bih=1297#imgrc=9mXc7mKlPEh1ZM*/
+  background-image: url(img/Background.jpg);  
+} 
+
+.background2 {
+  /* bron img:https://www.artstation.com/artwork/ykqeyO */
+  background-image: url(img/background_2.jpg);
+
+}
+
+.background1-night {
+  background-image: url(img/SVG/background_night.svg);
+
+}
+
+.background2-night {
+background-image: url(./img/SVG/background-night2.svg);
+}
+

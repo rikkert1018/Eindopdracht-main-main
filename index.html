@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Big Chunhus Tamagotchi</title>
+	<link rel="stylesheet" type="text/css" href="style.css"> <!-- CSS stylesheet wordt gelinkt -->
+</head>
+<body class="background1"> <!-- Achtergrondklasse is "background1" -->
+
+<div class="background">
+	<div class="containercontainer">
+		<div class="container">
+			<h2 id="petName"></h2> <!-- H2 element wordt gebruikt voor de naam van het tamagotchi-dier -->
+			<div class="tamagotchi">
+				<!-- Bron afbeelding: https://www.google.com/search?q=big+chungus&rlz=1C1CHBD_nlNL972NL972&oq=big+chungus&aqs=chrome..69i57j46i340i433i512j35i19i39l2j46i340i433i512l2j0i512j69i60.7579j0j4&sourceid=chrome&ie=UTF-8#imgrc=MAQ-HqsGtasRtM  -->
+				<img id="pet" src="./img/Big_chungus.webp"> <!-- Afbeelding wordt in img-map bewaard -->
+				<div class="stats">
+					<p>Hunger: <span id="hunger">50</span></p> <!-- Het element voor honger van het dier, startwaarde is 50 -->
+					<p>Happiness: <span id="happiness">50</span></p> <!-- Het element voor geluk van het dier, startwaarde is 50 -->
+					<p>Energy: <span id="energy">50</span></p> <!-- Het element voor energie van het dier, startwaarde is 50 -->
+				</div>
+			</div>
+			<div class="buttons">
+				<button id="feedbutton">Feed</button> <!-- Knop voor het voeden van het dier -->
+				<button id="playbutton">Play</button> <!-- Knop voor het spelen met het dier -->
+				<button id="sleepbutton">Sleep</button> <!-- Knop voor het laten slapen van het dier -->
+			</div>
+			<div class="buttons-background">
+				<button id="changeBgBtn">Change background</button> <!-- Knop voor het veranderen van de achtergrond -->
+			</div>
+			<div class="name-input">
+				<label for="pet-name-input">Enter your tamagotchi's name: </label> <!-- Label voor het invoeren van de naam van het dier -->
+				<input type="text" id="pet-name-input">
+				<button id="submitBtn">Submit</button> <!-- Knop om de ingevoerde naam te bevestigen -->
+			</div>
+			<div class="class radioButton">
+				<button id="radioButton">Turn radio on</button> <!-- Knop om de radio van het dier aan te zetten -->
+				<audio id="radioAudio" src="./sounds/Big-Chungus-djlunatique.com.mp3"></audio> <!-- Audio-element voor het geluid van de radio van het dier, opgeslagen in de sounds-map -->
+			</div>
+			
+		</div>
+	</div>
+</div>
+<script src="script.js"></script> <!-- Javascript-bestand wordt gelinkt -->
+</body>
+</html>
+
